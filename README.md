@@ -4,8 +4,8 @@ This project demonstrates performance issue when migrating from JUnit `Vintage` 
 
 With a simple test class (which contains 15 tests):
 
-- `Vintage` version takes **50ms**
-- `Jupiter` version takes **800ms** :warning: x16
+- `Vintage` version takes **10ms**
+- `Jupiter` version takes **600ms** :warning: x60
 
 Produced with `JUnit 5.2.0` and `Mockito 2.19.0` on my laptop.
 
