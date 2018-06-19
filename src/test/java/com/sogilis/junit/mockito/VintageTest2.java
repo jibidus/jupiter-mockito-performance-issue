@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class VintageTest {
+public class VintageTest2 {
 
     @InjectMocks
     private TestedClass testedClass;

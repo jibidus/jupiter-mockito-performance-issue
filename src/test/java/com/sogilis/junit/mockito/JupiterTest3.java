@@ -10,18 +10,18 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-class JupiterTest {
+class JupiterTest3 {
 
     @InjectMocks
-    private VintageTest.TestedClass testedClass;
+    private VintageTest1.TestedClass testedClass;
 
     @Mock
-    private VintageTest.Dependency dependency;
+    private VintageTest1.Dependency dependency;
 
     public static class TestedClass {
-        private VintageTest.Dependency dependency;
+        private VintageTest1.Dependency dependency;
 
-        public TestedClass(VintageTest.Dependency dependency) {
+        public TestedClass(VintageTest1.Dependency dependency) {
             this.dependency = dependency;
         }
 
