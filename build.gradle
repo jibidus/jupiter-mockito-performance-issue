@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.2.50'
 }
 
 test {
@@ -7,6 +8,9 @@ test {
 }
 
 dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.jetbrains.kotlin:kotlin-reflect"
+
     def junit4Version        = '4.12'
     def junitVintageVersion  = '5.2.0'
     def junitJupiterVersion  = '5.2.0'
@@ -28,8 +32,15 @@ dependencies {
     // Mockito ----------------------------------------------------------------
     testImplementation "org.mockito:mockito-core:${mockitoVersion}"
     testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
+    testImplementation "com.nhaarman:mockito-kotlin:1.5.0"
 }
 
 repositories {
     jcenter()
+}
+
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
