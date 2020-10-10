@@ -1,4 +1,4 @@
-This project demonstrates performance issue when migrating from JUnit `Vintage` to JUnit `Jupiter`.
+This project demonstrates performance issue when migrating from JUnit `Vintage` to JUnit `Jupiter` (see [raised issue](https://github.com/mockito/mockito/issues/1410)).
 
 # What are the results?
 
