@@ -1,4 +1,4 @@
-package com.sogilis.junit.mockito;
+package com.jibidus.junit.mockito;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

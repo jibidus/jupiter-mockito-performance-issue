@@ -1,4 +1,4 @@
-package com.sogilis.junit.mockito;
+package com.jibidus.junit.mockito;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class VintageTest2 {
+public class VintageTest1 {
 
     @InjectMocks
     private TestedClass testedClass;

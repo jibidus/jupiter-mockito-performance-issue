@@ -1,4 +1,4 @@
-package com.sogilis.junit.mockito
+package com.jibidus.junit.mockito
 
 import com.nhaarman.mockito_kotlin.whenever
 import org.junit.jupiter.api.Assertions.assertEquals

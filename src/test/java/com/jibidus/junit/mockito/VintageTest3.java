@@ -1,27 +1,27 @@
-package com.sogilis.junit.mockito;
+package com.jibidus.junit.mockito;
 
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
-import org.mockito.junit.jupiter.MockitoExtension;
+import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 
-@ExtendWith(MockitoExtension.class)
-class JupiterTest1 {
+@RunWith(MockitoJUnitRunner.class)
+public class VintageTest3 {
 
     @InjectMocks
-    private VintageTest1.TestedClass testedClass;
+    private TestedClass testedClass;
 
     @Mock
-    private VintageTest1.Dependency dependency;
+    private Dependency dependency;
 
     public static class TestedClass {
-        private VintageTest1.Dependency dependency;
+        private Dependency dependency;
 
-        public TestedClass(VintageTest1.Dependency dependency) {
+        public TestedClass(Dependency dependency) {
             this.dependency = dependency;
         }
 
