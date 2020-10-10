@@ -14,6 +14,5 @@ Produced with `JUnit 5.2.0` and `Mockito 2.19.0` on my laptop (MacOS with `Java 
 
 ```bash
 ./gradlew test
+open build/reports/tests/test/index.html
 ```
-
-Open `build/reports/tests/test/index.html`.
